@@ -2,6 +2,10 @@
 
 # Tarea 21 - El algoritmo del biólogo
 
+# Programa pide al usuario que introduzca un número entre el 0.0001 y 0.9999
+#
+# Devuelve la fracción más simple equivalente a ese número flotante.
+
 ######################################
 
 
