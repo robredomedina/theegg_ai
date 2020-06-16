@@ -1,3 +1,5 @@
+# Tarea 2.4: Construye un simulador
+
 ## Enunciado
 
 "Desarrollar un programa donde una vez enviado un valor decimal a una función este lo convierta a binario y nos lo devuelva."
