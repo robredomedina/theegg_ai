@@ -54,8 +54,16 @@ En realidad son 2 protocolos, que casi siempre van unidos, y que juntos forman l
 "Domain Name System". Es un sistema para asociar la dirección IP de los servidores web (poco legible para las personas) a los dominios (www.google.com), facilitando su localización en la red. Los servidores DNS se encargan de recibir las peticiones de los clientes y resolverlo buscando la IP asociada en sus tablas.
 
 ### IP (2.5)
-Suele asociarse a la dirección IP que identifica a los dispositivos conectados a la red. Pero las siglas IP se refieren al "Internet Protocol"
+Suele asociarse a la dirección IP que identifica a los dispositivos conectados a una red. Pero las siglas IP se refieren al "Internet Protocol"
 
-### Servidor web
-Dentro de la arquitectura cliente-servidor que conforma internet, el servidor web es el software que cumple la función de procesar las peticiones del cliente y servir contenidos en función de éstas.
+### Servidor web (2.5)
+Dentro de la arquitectura cliente-servidor que conforma internet, el servidor web es el software que cumple la función de procesar las peticiones del cliente y servir contenidos en función de éstas. Implementa el protocolo HTTP(s), que es el que se usa en cada transacción en la Web. 
 
+### ETL (2.6)
+Son las siglas "Extract, Transform, Load", que componen los 3 pasos que se deben dar en el preprocesado de datos. Los datos se extraen en crudo, se transforman para que tengan la forma adecuada usarlos en nuestro análisis, y se cargan al "data warehouse" o almacén de datos, siguiendo las pautas marcadas.
+
+### Bases de datos (2.6)
+Es dónde se almacenan los datos. Se clasifican en dos grandes tipos: relacionales y no relacionales.
+
+### Data-preprocessing (2.6)
+Normalmente los datos vienen no vienen "limpios", sino que antes de inyectarlos en nuestros algoritmos, deben ser preparados y limpiados para que su manejo sea más fácil.
