@@ -1,15 +1,12 @@
-<<<<<<< HEAD
 # Implementación simple recursiva
 #
 # Devuelve el máximo de litros que se pueden conseguir con un
 # camión de tara = "tara"
 import time
 
-=======
 import sys
 import itertools
 import copy
->>>>>>> d9660267d13a39f979d66781df7537ed3dd59604
 
 tara  = int(input("Introduzca la capacidad del camion: "))
 pesos = input("Introduzca el peso de las vacas(separados por espacios): ").split(" ")
@@ -71,7 +68,6 @@ lechero(6, tara, pesos, litros)
 print(vacas)
 hacer_sub_listas_vacas(vacas)
 
-<<<<<<< HEAD
     if (pesos[n-1] > tara):
         return lechero(n-1, tara, pesos, litros)
 
@@ -101,9 +97,7 @@ if __name__ == '__main__':
 
     main()
 
-=======
 comprobar_pesos(listas_vacas)
 elegir_optimo(listas_vacas)
->>>>>>> d9660267d13a39f979d66781df7537ed3dd59604
 
 	
