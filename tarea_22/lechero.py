@@ -2,6 +2,8 @@
 #
 # Devuelve el máximo de litros que se pueden conseguir con un
 # camión de tara = "tara"
+import time
+
 
 def lechero(n, tara, pesos, litros):
 
@@ -21,12 +23,16 @@ def lechero(n, tara, pesos, litros):
 
 def main():
 
-    numero_vacas = 6
-    tara_camion = 700
-    pesos_vacas = [360, 250, 400, 180, 50, 90] 
-    litros_vacas = [40, 35, 43, 28, 12, 13]
+    tara_camion = 2000
+    pesos_vacas = [340,355,223,243,130,240,260,155,302,130] 
+    litros_vacas = [45,50,34,39,29,40,30,52,31,1]
+    numero_vacas = len(pesos_vacas)
     
+    tic = time.perf_counter()
     litros_totales = lechero(numero_vacas, tara_camion, pesos_vacas, litros_vacas)
+    toc = time.perf_counter()
+
+    print(f"Function run in {toc - tic:0.4f} seconds")
 
     print(litros_totales)
     

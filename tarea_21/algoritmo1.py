@@ -7,7 +7,7 @@
 # Devuelve la fracción más simple equivalente a ese número flotante.
 
 ######################################
-
+import time
 
 numero = input("Introduce un número entre 0.0001 y 0.9999: ")
 
@@ -22,6 +22,8 @@ if (numero <= 0.0001) | (numero > 0.9999):
 numerador = int(numero * 10000)
 
 denominador = 10000
+
+tic = time.perf_counter()
 
 def get_multiplos(numero):
    
@@ -58,4 +60,8 @@ denominador = denominador/reductor
 
 print("La fracción más reducida de tu número flotante es: ")
 print(str(int(numerador)) + '/' + str(int(denominador)))
+
+toc = time.perf_counter()
+
+print(f"Function time is {toc - tic:0.4f} seconds")
 
