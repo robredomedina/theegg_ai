@@ -94,3 +94,17 @@ Se trata de una de las 2 grandes ramas de las bases de datos. Sus siglas signifi
 ### NoSQL (3.5)
 Bases de datos no relacionales. No tienen una estructura definida, por lo que son más flexibles ante el cambio. Han proliferado en los ultimos años, ya que el entorno tan cambiante de internet, genera constantemente nuevos datos y es dificil tener una estructura definida de la base datos al empezar. Pueden ser más rápidas en proyectos a muy gran escala, pero la normalización de datos se dificulta.
 ***
+### Dirección IP (3.7)
+Es el número que identifica a a cualquier interfaz que se conecta y utiliza el protocolo de internet (IP, por sus siglas en inglés). La versión antigua, IP-v4 es un número de 32 bits, del tipo *127.12.14.19*. Actualmente exista el IP-v6, que es un número de 128 bits. Hay IPs privadas, que sólo son visibles dentro de una red, e IPs públicas, que son visibles y accesibles desde cualquier dispositivo conectado a internet.
+***
+### Internet (3.7)
+Internet es una red de ordenadores conectados mundialmente, en el cual se comunican e intercambian información entre ellos siguiendo unas pautas o protocolos que todos entienden.
+***
+### WAN (3.7)
+*Wide Area Network*. Se trata de una red que une ordenadores en un territorio grande. Internet es un ejemplo de una WAN.
+***
+### LAN (3.7)
+*Local Area Network*. Los ordenadores en una oficina u otro espacio pequeño suelen estar conectados a traves de una LAN. 
+***
+### Máscara de Subred (3.7)
+Se trata de una secuencia de bits, de la misma longitud que la dirección IP, la cual sirve para que un dispositivo sepa cuántos bits de la dirección IP que le ha sido asignada identifican a la dirección IP de la subred a la cual pertenece, y cuántos bits indican la dirección a ellos mismos (*el host*).
