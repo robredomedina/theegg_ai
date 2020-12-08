@@ -108,3 +108,17 @@ Internet es una red de ordenadores conectados mundialmente, en el cual se comuni
 ***
 ### Máscara de Subred (3.7)
 Se trata de una secuencia de bits, de la misma longitud que la dirección IP, la cual sirve para que un dispositivo sepa cuántos bits de la dirección IP que le ha sido asignada identifican a la dirección IP de la subred a la cual pertenece, y cuántos bits indican la dirección a ellos mismos (*el host*).
+### Router (3.7)
+Es un dispositivo hardware que sirve para que varios dispositivos se conecten entre si, y compartan una misma conexióin a internet. Opera en el nivel 3 del modelo OSI. El router se asegura de que el tráfico proviniente de internet llega al dispositivo que ha solicitado la informacion.
+
+### Switch (3.7)
+Es un dispositivo de hardware parecido al router, pero que sólo conecta dispositivos entre sí, y redirige trafico. No se conecta a internet como elk router.
+
+### TCP-IP (3.7)
+Aunque se hable de ellos conjuntamente, se trata de dos protocolos que operan en niveles diferentes del modelo OSI, pero que juntos forman el "stack" de protocolos más utilizados y que conforman la esencia de la comunicacion por internet. IP opera en la capa 3, y tiene que ver con la comunicación entre IPs, y TCP opera en la capa 4 y tiene que ver con la comunicacion entre puertos concretos.
+
+### IP publica
+Es la dirección que se utiliza para conectarse a internet
+
+### IP privada
+Su función es la de dirigir el tráfico dentro de una red local privada. No se puede enviar tráfico a ellas desde internet.
