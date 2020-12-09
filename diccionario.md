@@ -117,8 +117,23 @@ Es un dispositivo de hardware parecido al router, pero que sólo conecta disposi
 ### TCP-IP (3.7)
 Aunque se hable de ellos conjuntamente, se trata de dos protocolos que operan en niveles diferentes del modelo OSI, pero que juntos forman el "stack" de protocolos más utilizados y que conforman la esencia de la comunicacion por internet. IP opera en la capa 3, y tiene que ver con la comunicación entre IPs, y TCP opera en la capa 4 y tiene que ver con la comunicacion entre puertos concretos.
 
-### IP publica
+### IP publica (3.7)
 Es la dirección que se utiliza para conectarse a internet
 
-### IP privada
+### IP privada (3.7)
 Su función es la de dirigir el tráfico dentro de una red local privada. No se puede enviar tráfico a ellas desde internet.
+
+### Pentesting (4.0)
+Contraccion de penetration testing. Es una técnica preventiva en la cual se buscan de manera sistemática  vulnerabilidades en un sistema para detectarlos antes de que haya posibles ataques.
+
+### XSS (4.0)
+"Cross site scripting". Se trata de inyectar scripts (normalmente en javascript) para que se ejecuten en aplicaciones web en el navegador del cliente.
+
+### Inyección SQL (4.0)
+Ataque a aplicaciones web con el cual se puede obtener informacion de la base de datos que utiliza el backend de esa aplicacion. La via de entrada suelen ser campos de entrada de formularios.
+
+### Ataque DDoS (4.0)
+"Distributed Denial of Service". Se trata de mandar una gran cantidad de peticiones a un servidor con el fin de colapsarlo, y que no pueda seguir prestando el servicio que presta.
+
+### Ingeniería social (4.0)
+Es la parte de los ataques informáticos que implican la parte del contacto humano. Cualquier tecnica que ayude a obtener información que luego pueda ser utilizada para llevar a cabo un ataque.
