@@ -117,8 +117,35 @@ Es un dispositivo de hardware parecido al router, pero que sólo conecta disposi
 ### TCP-IP (3.7)
 Aunque se hable de ellos conjuntamente, se trata de dos protocolos que operan en niveles diferentes del modelo OSI, pero que juntos forman el "stack" de protocolos más utilizados y que conforman la esencia de la comunicacion por internet. IP opera en la capa 3, y tiene que ver con la comunicación entre IPs, y TCP opera en la capa 4 y tiene que ver con la comunicacion entre puertos concretos.
 
-### IP publica
+### IP publica (3.7)
 Es la dirección que se utiliza para conectarse a internet
 
-### IP privada
+### IP privada (3.7)
 Su función es la de dirigir el tráfico dentro de una red local privada. No se puede enviar tráfico a ellas desde internet.
+
+### expresiones-regulares (4.1)
+Es una técnica utilizada para encontrar a través de patrones una determinada cadena de caracteres dentro de un texto. 
+
+### procesamiento-del-lenguaje-natural (4.1) 
+Es una de las ramas de mayor desarrollo dentro de la inteligencia artificial en la cual se analiza el lenguaje. Tiene distintas aplicaciones que van desde los traductores entre idiomas, análisis de sentimientos, teclados predictivos, etc. 
+
+### (web)scrapping (4.1)
+Consiste en sacar datos de una pagina web, normalmente para su posterior análisis o manipulación
+
+### (web)crawling (4.1)
+Consiste en extraer todos los enlaces e hipervínculos de una página web. Suele ser un proceso recursivo, ya que a su vez se van extrayendo los vinculos dentro de los que se han obtenido. De esa manera se va formando una red, de ahí su nombre "web spider".
+
+### SQL (4.3)
+"Standard Query Language". Lenguaje que se utiliza para hacer peticiones y cambios en bases de datos de tipo relacional.
+
+### bases-de-datos-relacionales (4.3)
+Hay dos grandes tipos de bases de datos, relacionales y no relacionales. Una relación se denomina a una serie de entidades que tienen las mismas propiedades. Los datos por tanto se almacenan en tablas, en las que cada fila es una entrada, y cada columna un atributo. Al estar definida la forma de las tablas de antemano, se puede obtener la información de las mismas de una forma más optimizada y rápida. A cambio, hay que aceptar que son estructuras menos flexibles que lo que ofrece una base de datos no relacional.
+
+### MySQL (4.3)
+Es un sistema de gestión de bases de datos relacional que pertenece a Oracle. Es posiblemente el gestor de código abierto más popular del mundo.
+
+### postgreSQL (4.3) 
+Otro sistema de de gestión de bases de datos relacional y de código abierto.
+
+### MongoDB (4.3)
+Sistema de gestión de bases de datos no relacional (también llamadas noSQL). Este tipo de bases de datos han ganado popularidad en los últimos años, ya que permiten modificar los campos y estructura de la base de datos al vuelo, lo cual ofrece mucha flexibilidad. A cambio de esa flexibilidad, este tipo de bases de datos son más lentas que las relacionales (que usan SQL).
