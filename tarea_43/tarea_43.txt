@@ -1,0 +1,21 @@
+SELECT * FROM members;
+
+SELECT * FROM users;
+
+SELECT HashedPassword, NumberOfComments FROM members;
+
+SELECT Downloads, GivenName FROM users;
+
+SELECT DISTINCT PasswordHash FROM members;
+
+SELECT * FROM mailing_list ORDER BY FirstName ASC;
+
+SELECT * FROM users ORDER BY FamilyName DESC;
+
+SELECT DISTINCT LastAccess, Posts, Surname FROM users ORDER BY Posts DESC;
+
+SELECT Email, PassChangeCount FROM mailing_list ORDER BY PassChangeCount DESC, Email ASC;
+
+SELECT * FROM members ORDER BY Address ASC, NumberOfPurchases ASC LIMIT 3;
+
+SELECT DISTINCT Promotions, Surname FROM mailing_list ORDER BY Surname DESC, Promotions DESC LIMIT 20;
