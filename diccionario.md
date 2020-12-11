@@ -123,7 +123,6 @@ Es la dirección que se utiliza para conectarse a internet
 ### IP privada (3.7)
 Su función es la de dirigir el tráfico dentro de una red local privada. No se puede enviar tráfico a ellas desde internet.
 
-<<<<<<< HEAD
 ### Pentesting (4.0)
 Contraccion de penetration testing. Es una técnica preventiva en la cual se buscan de manera sistemática  vulnerabilidades en un sistema para detectarlos antes de que haya posibles ataques.
 
@@ -138,7 +137,7 @@ Ataque a aplicaciones web con el cual se puede obtener informacion de la base de
 
 ### Ingeniería social (4.0)
 Es la parte de los ataques informáticos que implican la parte del contacto humano. Cualquier tecnica que ayude a obtener información que luego pueda ser utilizada para llevar a cabo un ataque.
-=======
+
 ### expresiones-regulares (4.1)
 Es una técnica utilizada para encontrar a través de patrones una determinada cadena de caracteres dentro de un texto. 
 
@@ -165,4 +164,11 @@ Otro sistema de de gestión de bases de datos relacional y de código abierto.
 
 ### MongoDB (4.3)
 Sistema de gestión de bases de datos no relacional (también llamadas noSQL). Este tipo de bases de datos han ganado popularidad en los últimos años, ya que permiten modificar los campos y estructura de la base de datos al vuelo, lo cual ofrece mucha flexibilidad. A cambio de esa flexibilidad, este tipo de bases de datos son más lentas que las relacionales (que usan SQL).
->>>>>>> f4283f8e6547cb99efb1f575a7f4d9a4c64166a8
+
+### Notación-asintótica
+Una forma de describir de una forma general la cantidad de operaciones que requiere un algoritmo para una cantidad dada de datos de entrada. Existen distintos tipos de notaciones asintóticas: omicron, omega y theta. 
+
+### Notación Big-O
+Es una métrica que se utiliza para describir la eficiencia de un algoritmo, teniendo en cuenta el número de operaciones que debe hacer para resolverlo, y como incrementa ese número de operaciones si aumenta el número de inputs a procesar. Para ello, tiene en cuenta el peor caso posible.
+
+### Algoritmos-de-ordenación
